@@ -172,11 +172,11 @@ def move () :
 
 # gamemode and board selection      
 g=int(input("gamemode : 1.normal , 2.flashlight "))
-n=int(input("chose board : 1-5; 9-random board "))
+n=int(input("chose board : 1-3; 9-random board "))
 
 # chosen board is copied in play board, player and win positions are initialized
 if n==9 :
-    n=random()*10%5
+    n=random()*10%3
 if n==1 : 
     b=l1
     pi=1
