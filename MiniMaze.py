@@ -168,7 +168,7 @@ def move () :
                 pj+=1
                 b[pi][pj]='●'
             else : print("invalid move")
-    print(pi,pj)       
+    #print(pi,pj)       
 
 # gamemode and board selection      
 g=int(input("gamemode : 1.normal , 2.flashlight "))
